@@ -1,4 +1,4 @@
-/// <reference path="elastic.js.d.ts"/>
+import * as elasticjs from 'elastic.js';
 
 let body = new elasticjs.Request({})
   .query(new elasticjs.MatchQuery('title_field', 'testQuery'))
