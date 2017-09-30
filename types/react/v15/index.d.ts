@@ -12,9 +12,8 @@
 //                 Tanguy Krotoff <https://github.com/tkrotoff>
 //                 Dovydas Navickas <https://github.com/DovydasNavickas>
 //                 Stéphane Goetz <https://github.com/onigoetz>
-//                 Anders Riutta <https://github.com/ariutta>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
-// TypeScript Version: 2.4
+// TypeScript Version: 2.3
 
 /*
 Known Problems & Workarounds
@@ -2582,16 +2581,6 @@ declare namespace React {
     // WAI-ARIA
     role?: string;
 
-    // RDFa Attributes
-    about?: string;
-    datatype?: string;
-    inlist?: any;
-    prefix?: string;
-    property?: string;
-    resource?: string;
-    typeof?: string;
-    vocab?: string;
-
     // Non-standard Attributes
     autoCapitalize?: string;
     autoCorrect?: string;
@@ -2629,6 +2618,7 @@ declare namespace React {
     classID?: string;
     cols?: number;
     colSpan?: number;
+    content?: string;
     controls?: boolean;
     coords?: string;
     crossOrigin?: string;
@@ -3105,6 +3095,7 @@ declare namespace React {
     className?: string;
     color?: string;
     height?: number | string;
+    href?: string;
     id?: string;
     lang?: string;
     max?: number | string;
